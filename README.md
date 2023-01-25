@@ -68,8 +68,21 @@ MaxSessions 5
 ```
 # Task 8
 
-###### Download and install roles from Ansible Galaxy and use them in a playbook
+###### Download and install roles from Ansible Galaxy and use them in a playbook.
 
 - Download `ericsysmin.chrony` to ~/roles directory.
 - Create a playbook named `chrony.yml` in you're home directory and use the role to run on only `devservers` host group.
 
+# Task 9
+
+###### Using Ansible Vault, encrypt a file called `secrets.yml` and then rekey it.
+
+- Create a file named `secrets.yml` in you're home directory with the following variables:
+
+```
+password: test
+username: test
+```
+#
+- Using Ansible Vault encrypt the `secrets.yml` file using the password `test` and save the password in ~/`test1.txt`
+- Using Ansible Vault rekey the `secrets.yml` file using the password `test2` and save that password in ~/`test2.txt` 
