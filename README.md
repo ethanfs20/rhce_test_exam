@@ -68,6 +68,9 @@ MaxSessions 5
 ```
 # Task 8
 
+# Download roles from Ansible Galaxy and use them.
 
+# Download and install roles from Ansible Galaxy to ~/roles and use it in a playbook.
 
+###### Create a playbook named `chrony.yml` in you're home directory and use the role to run on only `devservers` host group.
 
